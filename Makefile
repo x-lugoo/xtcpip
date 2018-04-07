@@ -24,4 +24,5 @@ shell/shell_obj.o:shell/*.c
 clean:
 	find . -name *.o | xargs rm -f
 	find . -name *.d | xargs rm -f
+	find . -name *.d.* | xargs rm -f
 	rm -f xtcpip
